@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cohere
+Version: 3.1.6
+Summary: A Python library for the Cohere API
+Home-page: https://github.com/cohere-ai/cohere-python
+Author: 1vn
+Author-email: ivan@cohere.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uofthacks
+UoftHacks

@@ -1,2 +1,16 @@
-<h1>Hello World</h1>
-<p>This is a template</p>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<div class="mainDiv">
+<h1>Poemify</h1>
+<p>Your current location:</p>
+<form action="{% url 'output'%}" method="post">
+    {% csrf_token %}
+    <!--this token has to be added to make post requests-->
+    
+    {{form}}
+    
+</form>
+</div>
+</html>

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cohere.egg-info/PKG-INFO
+cohere.egg-info/SOURCES.txt
+cohere.egg-info/dependency_links.txt
+cohere.egg-info/requires.txt
+cohere.egg-info/top_level.txt
