@@ -5,6 +5,8 @@ Summary: A Python library for the Cohere API
 Home-page: https://github.com/cohere-ai/cohere-python
 Author: 1vn
 Author-email: ivan@cohere.ai
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -14,3 +16,5 @@ License-File: LICENSE
 
 # uofthacks
 UoftHacks
+
+
