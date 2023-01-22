@@ -1,0 +1,74 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Poex | Main</title>
+    {% load static %}
+</head>
+
+<div style="justify-items: right;" class="mainDiv" background="../images/unsplash.png">
+<h1 >Poex</h1>
+<form action="{% url 'output'%}" method="post">
+    {% csrf_token %}
+    <!--this token has to be added to make post requests-->
+    
+    <b>{{form}}</b>
+    <b><input id="submitbox" type="submit"></b>
+</form>
+<form action="{% url 'output'%}" method="get">
+    <input id="location" value="use current location" type="submit">
+</form>
+</div>
+<style>
+    div{
+        background-color: black;
+        color:white;
+        align-content: center;
+    
+    }
+    
+    .mainDiv {
+        z-index: 1;
+        position: relative;
+        font-size: inherit;
+        font-family: 'Garamond';
+        color: white;
+        padding: 0.5em 1em;
+        outline: none;
+        border: 2px;
+        border: white;
+        background-color: hsl(236, 32%, 26%);
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 7px 7px black;
+        margin-right:10px;
+        margin-top: 50px;
+      }
+    body {
+        background-image: linear-gradient(to bottom right, purple, blue);
+        background-repeat: no-repeat;
+        text-shadow: 3px 3px 5px black;
+        border: 2px;
+        
+    }
+    #submitbox{
+        box-shadow: 3px 3px black;
+    }
+    #location{
+        font-size: 16px;
+        background-color: #0051ff;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        animation: glowing 1200ms infinite;
+    }
+</style>
+</html>
