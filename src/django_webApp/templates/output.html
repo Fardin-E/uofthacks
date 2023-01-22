@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Poex | Result</title>
+</head>
+
+<body>
+  <div>
+    <h2>In the words of Poex</h2>
+    <p>{{output}}</p>
+
+    <form action="{% url 'home' %}" method="get">
+      <input id="submitbox" type="submit" value="return">
+    </form>
+  </div>
+</body>
+<style>
+  div {
+    color: white;
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 32%, 26%);
+    box-shadow: 7px 7px black;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom right, purple, blue);
+    background-repeat: no-repeat;
+    text-shadow: 3px 3px 5px black;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  #submitbox {
+    box-shadow: 3px 3px black;
+  }
+
+</style>
+
+</html>
