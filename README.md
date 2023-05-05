@@ -13,3 +13,6 @@ pip install -r requirements.txt
 cd src/django_webApp
 
 python manage.py runserver
+
+POEX
+[Go to POEX devpost](https://devpost.com/software/poex)
